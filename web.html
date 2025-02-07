@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Faustina:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Management System</h1>
+        
+        <div class="form-container">
+            <h2>Add Course</h2>
+            <form id="courseForm">
+                <input type="text" id="courseId" class="input" placeholder="Course ID" required>
+                <input type="text" id="courseName" class="input" placeholder="Course Name" required>
+                <button type="button" onclick="addCourse()">Add Course</button>
+            </form>
+        </div>
+
+        <div class="form-container">
+            <h2>Add Student</h2>
+            <form id="studentForm">
+                <input type="text" id="studentId" class="input" placeholder="Student ID" required>
+                <input type="text" id="studentName" class="input" placeholder="Student Name" required>
+                <input type="email" id="studentEmail" class="input" placeholder="Email" required>
+                <select id="studentType" class="input" required>
+                    <option value="">Select Student Type</option>
+                    <option value="Undergraduate">Undergraduate</option>
+                    <option value="Graduate">Graduate</option>
+                </select>
+                <button type="button" onclick="addStudent()">Add Student</button>
+            </form>
+        </div>
+
+        <div class="form-container">
+            <h2>Add Grade and Attendance</h2>
+            <form id="gradeForm">
+                <select id="studentSelect" class="input" required>
+                    <option value="">Select Student</option>
+                </select>
+                <select id="courseSelect" class="input" required>
+                    <option value="">Select Course</option>
+                </select>
+                <input type="number" id="grade" class="input" placeholder="Grade (0-100)" min="0" max="100" required>
+                <input type="number" id="totalClasses" class="input" placeholder="Total Classes" min="1" required>
+                <input type="number" id="attendedClasses" class="input" placeholder="Attended Classes" min="0" required>
+                <button type="button" onclick="addGradeAndAttendance()">Add Grade and Attendance</button>
+            </form>
+        </div>
+
+        <div class="report-container">
+            <h2>Student Report</h2>
+            <button onclick="generateReport()">Generate Report</button>
+            <div id="reportSection"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
