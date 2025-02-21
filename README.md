@@ -1,7 +1,7 @@
-# 🎓 Student Management System
+# 🎓 Student Report Card
 
 ## 📌 Overview
-The **Student Management System** is a simple web-based application that allows users to manage students and courses. It includes functionalities such as adding students, adding courses, assigning grades and attendance, and generating student reports with GPA calculations.
+The **Student Report Card** is a simple web-based application that allows users to manage students and courses. It includes functionalities such as adding students, adding courses, assigning grades and attendance, and generating student reports with GPA calculations.
 
 ## 🌟 Features
 - 📚 Add courses with a unique Course ID and Course Name.
@@ -23,7 +23,7 @@ The **Student Management System** is a simple web-based application that allows 
    ```
 2. Navigate to the project directory.
    ```sh
-   cd student-management-system
+   cd student-report
    ```
 
 ## 📖 Usage
