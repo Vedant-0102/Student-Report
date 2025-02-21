@@ -70,3 +70,6 @@ The maximum GPA is capped at 10.0.
 
 ### Example
 ![Report Generated](https://github.com/Vedant-0102/Student-Report/blob/main/assests/Report_gen.png)
+
+### License
+This project is publicly accessible, but the code is **not available for reuse or modification**.
