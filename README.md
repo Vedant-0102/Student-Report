@@ -19,7 +19,7 @@ The **Student Management System** is a simple web-based application that allows 
 ## 🚀 Installation
 1. Clone the repository or download the source files.
    ```sh
-   git clone https://github.com/your-repo/student-management-system.git
+   git clone https://github.com/Vedant-0102/Student-Report.git
    ```
 2. Navigate to the project directory.
    ```sh
@@ -52,14 +52,21 @@ Graduate students receive a 10% weight increase.
 The maximum GPA is capped at 10.0.
 
 ## 🖼️ Adding Screenshots
+
+### Landing Page
 ![Landing Page](https://github.com/Vedant-0102/Student-Report/blob/main/assests/Landing.png)
 
+### Adding Courses
 ![Add Courses](https://github.com/Vedant-0102/Student-Report/blob/main/assests/Courses.png)
 
+### Adding Students
 ![Add Students](https://github.com/Vedant-0102/Student-Report/blob/main/assests/Student.png)
 
+### Add Grade and Attendance
 ![Add Grade and Attendance](https://github.com/Vedant-0102/Student-Report/blob/main/assests/Grade_Attendance.png)
 
+### Option to Generate Report Card
 ![Generate Report](https://github.com/Vedant-0102/Student-Report/blob/main/assests/Generate.png)
 
+### Example
 ![Report Generated](https://github.com/Vedant-0102/Student-Report/blob/main/assests/Report_gen.png)
