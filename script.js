@@ -87,7 +87,7 @@ function calculateGPA(student) {
     let gpa = average / 10; // GPA on a 10-point scale
 
     if (student.studentType === 'Graduate') {
-        gpa *= 1.1; // Apply weight for graduate students
+        gpa *= 1.1; 
     }
 
     return Math.min(gpa, 10.0); // Cap GPA at 10
